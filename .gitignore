@@ -2,6 +2,10 @@
 # /** 指定 某目录下面所有内容不上传
 
 /egg-server/node_modules
-/admin-client/node_modules
 /egg-server/logs
 /egg-server/run
+
+
+/admin-client/node_modules
+/admin-client/yarn-error.log
+/admin-client/yarn.lock
