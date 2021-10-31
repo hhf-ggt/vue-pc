@@ -1,3 +1,6 @@
+# 排除指定目录不上传到github
+# /** 指定 某目录下面所有内容不上传
+
 /egg-server/node_modules
 /egg-server/logs
 /egg-server/run
