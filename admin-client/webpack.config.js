@@ -1,8 +1,8 @@
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-// const webpack = require('webpack')
 const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+var ProgressBarPlugin = require('progress-bar-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -10,6 +10,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
+  },
+  devServer: {
+    host: '127.0.0.1',
+    port: '3000',
+    historyApiFallback: true
   },
   module: {
     rules: [
@@ -37,6 +42,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html'
     }),
+    new ProgressBarPlugin(),
     new VueLoaderPlugin()
   ]
 }
