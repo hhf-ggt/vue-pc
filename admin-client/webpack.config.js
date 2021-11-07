@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
-console.log(path.resolve(__dirname, 'src/pages'))
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
