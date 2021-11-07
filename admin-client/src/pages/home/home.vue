@@ -1,12 +1,11 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <button @click="go">go personal page</button>
+    <a-button disabled type="primary" @click="go">go personal page</a-button>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'Home',
   data: function () {
@@ -15,7 +14,7 @@ export default {
     }
   },
   created () {
-    console.log('我是created')
+    // console.log('我是created')
   },
   methods: {
     go: function () {

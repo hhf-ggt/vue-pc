@@ -2,11 +2,13 @@ const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-var ProgressBarPlugin = require('progress-bar-webpack-plugin')
+const ProgressBarPlugin = require('progress-bar-webpack-plugin')
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
+console.log(path.resolve(__dirname, 'src/pages'))
 module.exports = {
   mode: 'development',
-  entry: './src/main.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
@@ -14,7 +16,13 @@ module.exports = {
   devServer: {
     host: '127.0.0.1',
     port: '3000',
-    historyApiFallback: true
+    historyApiFallback: true,
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src/pages')
+    },
+    extensions: ['.js', '.vue']
   },
   module: {
     rules: [
@@ -22,7 +30,6 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env'],
           plugins: ['@babel/plugin-transform-runtime']
         },
         exclude: /node_modules/
@@ -32,8 +39,23 @@ module.exports = {
         loader: 'vue-loader'
       },
       {
-        test: /\.css$/,
-        loader: 'css-loader'
+        test: /\.less$/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'less-loader',
+            options: {
+              lessOptions: {
+                javascriptEnabled: true
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -43,6 +65,7 @@ module.exports = {
       template: './public/index.html'
     }),
     new ProgressBarPlugin(),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new FriendlyErrorsWebpackPlugin()
   ]
 }

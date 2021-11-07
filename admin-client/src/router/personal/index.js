@@ -1,11 +1,25 @@
-// const Personal = () => import(/* webpackChunkName: 'pages/personal' */ '@/personal/personal.vue')
-
-import Personal from '@/personal/personal.vue'
+const Personal = () => import(/* webpackChunkName: 'pages/personal' */ '../../pages/personal/personal.vue')
+const SmallPage = () => import(/* webpackChunkName: 'pages/personal/smallPage' */ '../../pages/personal/smallPage.vue')
 
 const PersonalRouter = [{
   path: '/personal',
   name: 'PersonalPage',
-  component: Personal
+  component: Personal,
+  meta: {
+    title: '个人中心',
+    isMenu: true
+  },
+  children: [
+    {
+      path: 'smallPage',
+      name: 'SmallPage',
+      component: SmallPage,
+      meta: {
+        title: '小页面',
+        isMenu: true
+      }
+    }
+  ]
 }]
 
 export default PersonalRouter
