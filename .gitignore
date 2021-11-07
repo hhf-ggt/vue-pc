@@ -1,10 +1,9 @@
 # 排除指定目录不上传到github
 # /** 指定 某目录下面所有内容不上传
 
-/admin-server/node_modules
-/admin-server/logs
-/admin-server/run
-
+/admin-service/node_modules
+/admin-service/logs
+/admin-service/run
 
 /admin-client/node_modules
 /admin-client/yarn-error.log
