@@ -34,3 +34,8 @@ $ npm install friendly-errors-webpack-plugin --save-dev
 $ yarn add ant-design-vue --save
 $ npm install babel-plugin-import --save-dev
 ```
+
+## 引入axios
+```bash
+$ yarn add axios
+```

@@ -1,0 +1,23 @@
+{
+  "name": "egg-server",
+  "version": "1.0.0",
+  "description": "provider server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test commond",
+    "start": "egg-bin dev"
+  },
+  "keywords": [
+    "egg",
+    "mongonDb"
+  ],
+  "author": "huhu",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.31.0",
+    "egg-cors": "^2.2.3"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4"
+  }
+}

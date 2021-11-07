@@ -1,0 +1,275 @@
+{
+  "keys": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+      "ignoreJSON": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+      "cookieName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+      "type": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+    "protocolWhiteList": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js",
+    "allowMethods": "/Users/fenghuhu/myGithub/vue-pc/admin-service/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "name": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "version": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "description": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "main": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "start": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "author": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "license": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "strict": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "depth": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "env": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "level": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "logging": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "port": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg/config/config.default.js"
+}

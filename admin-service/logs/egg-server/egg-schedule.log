@@ -1,0 +1,9 @@
+2021-11-08 00:04:11,795 INFO 58320 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-11-08 00:04:11,795 INFO 58320 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-11-08 00:04:11,795 INFO 58320 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-11-08 00:04:12,805 INFO 58322 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-11-08 00:04:12,805 INFO 58322 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-11-08 00:04:12,805 INFO 58322 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-11-08 00:04:18,017 INFO 58334 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-11-08 00:04:18,017 INFO 58334 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-11-08 00:04:18,017 INFO 58334 [egg-schedule]: register schedule /Users/fenghuhu/myGithub/vue-pc/admin-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

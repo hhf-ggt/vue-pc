@@ -12,6 +12,7 @@
 
 # 2021-11-07
 ```text
-构建路有、引入antd-design-vue
+1、构建路由、引入antd-design-vue
+2、引入axios
 ```
 

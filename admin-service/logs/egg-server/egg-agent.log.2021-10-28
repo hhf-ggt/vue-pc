@@ -1,0 +1,11 @@
+2021-10-28 23:57:34,564 INFO 98103 [egg:logger] init all loggers with options: {"dir":"/Users/fenghuhu/myGithub/vue-pc/egg-server/logs/egg-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-28 23:57:34,571 INFO 98103 [egg:core] dump config after load, 3ms
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: ["/Users/fenghuhu/myGithub/vue-pc/egg-server/app","/Users/fenghuhu/myGithub/vue-pc/egg-server/config","/Users/fenghuhu/myGithub/vue-pc/egg-server/mocks","/Users/fenghuhu/myGithub/vue-pc/egg-server/mocks_proxy","/Users/fenghuhu/myGithub/vue-pc/egg-server/app.js"]
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: "/Users/fenghuhu/myGithub/vue-pc/egg-server/app"
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: "/Users/fenghuhu/myGithub/vue-pc/egg-server/config"
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: "/Users/fenghuhu/myGithub/vue-pc/egg-server/mocks"
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: "/Users/fenghuhu/myGithub/vue-pc/egg-server/mocks_proxy"
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher] Start watching: "/Users/fenghuhu/myGithub/vue-pc/egg-server/app.js"
+2021-10-28 23:57:34,610 INFO 98103 [egg-watcher:agent] watcher start success
+2021-10-28 23:57:34,620 INFO 98103 [egg:core] dump config after ready, 3ms
+2021-10-28 23:57:35,243 INFO 98103 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/fenghuhu/myGithub/vue-pc/egg-server/app/public","stat":{"dev":16777224,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5480422,"size":64,"blocks":0,"atimeMs":1635436655231.7698,"mtimeMs":1635436655231.7698,"ctimeMs":1635436655231.7698,"birthtimeMs":1635436655231.7698,"atime":"2021-10-28T15:57:35.232Z","mtime":"2021-10-28T15:57:35.232Z","ctime":"2021-10-28T15:57:35.232Z","birthtime":"2021-10-28T15:57:35.232Z"},"remove":false,"isDirectory":true,"isFile":false}
