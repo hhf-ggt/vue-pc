@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>{{msg}}</h1>
+    <h1>name: {{ data[0].name }}</h1>
+    <h1>age: {{ data[0].age }}</h1>
+    <h1>sex: {{ data[0].sex === 1 ? '男' : '女' }}</h1>
   </div>
 </template>
 

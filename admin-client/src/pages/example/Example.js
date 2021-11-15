@@ -4,7 +4,8 @@ export default {
   name: 'Example',
   data: function () {
     return {
-      msg: 'example dir'
+      msg: 'example dir',
+      data: []
     }
   },
   created() {
@@ -14,8 +15,8 @@ export default {
     async getInfo() {
       try {
         const res = await ExampleHttp.get('/example', {name: 'huhu'})
-        if (res.code === 1) {
-          console.log(res)
+        if (res.code === 200) {
+          this.data = res.content
         }
       } catch (error) {
         console.log(error)

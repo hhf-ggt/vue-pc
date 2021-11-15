@@ -5,17 +5,17 @@ module.exports = appInfo => {
   config.keys = appInfo.name + 'ggt'
   config.security = {
     csrf: {
-      enable: false,
-      ignoreJSON: false,
-      cookieName: 'csrfToken',
+        enable: false,
+        ignoreJSON: true
     },
     domainWhiteList: ['*']
-  };
-
-  config.cors = {
-    // credentials: true,
-    origin: '*',
-    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
-  };
-  return config
+}
+config.cors = {
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
+    // credentials: true //获得前端的cookie
+    // origin: () => 'http://127.0.0.1:3000'//这边不能为*号，需要指定明确的、与请求网页一致的域名
+}
+  return {
+    ...config
+  }
 }

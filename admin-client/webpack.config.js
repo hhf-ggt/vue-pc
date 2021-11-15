@@ -4,6 +4,7 @@ const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
   mode: 'development',
@@ -13,8 +14,11 @@ module.exports = {
     filename: '[name].js'
   },
   devServer: {
-    host: '127.0.0.1',
-    port: '3000',
+    proxy: {
+      // '/': {
+      //   target: 'http://127.0.0.1:7001'
+      // }
+    },
     historyApiFallback: true,
   },
   resolve: {
@@ -44,7 +48,7 @@ module.exports = {
             loader: 'style-loader'
           },
           {
-            loader: 'css-loader'
+            loader: 'css-loader',
           },
           {
             loader: 'less-loader',
@@ -65,6 +69,7 @@ module.exports = {
     }),
     new ProgressBarPlugin(),
     new VueLoaderPlugin(),
-    new FriendlyErrorsWebpackPlugin()
+    new FriendlyErrorsWebpackPlugin(),
+    new MiniCssExtractPlugin()
   ]
 }

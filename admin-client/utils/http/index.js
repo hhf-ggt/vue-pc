@@ -13,8 +13,8 @@ function csrfSafeMethod(method = '') {
 
 function requestHandle(config) {
   if (!csrfSafeMethod(config.method)) {
-    csrfToken = utils.getCookie('csrfToken')
-    config.headers['x-csrf-token'] = csrfToken
+    // csrfToken = utils.getCookie('csrfToken')
+    // config.headers['x-csrf-token'] = csrfToken
   }
   return config
 }
@@ -43,6 +43,7 @@ function responseHandle(response) {
 }
 
 function responseError(error) {
+  console.log(error)
   const { url } = error.config
   // 超时
   if (error instanceof Error && error.toJSON().message.includes('timeout')) {
@@ -71,7 +72,7 @@ export default class Http {
   constructor() {
     axios.defaults.timeout = 
     this.http = axios.create({
-      baseURL: 'http://127.0.0.1:7001/api'
+      baseURL: 'http://127.0.0.1:7001'
     })
 
     // 请求拦截器
