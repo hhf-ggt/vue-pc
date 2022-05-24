@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <a-button disabled type="primary" @click="go">go personal page</a-button>
+    <a-button type="primary" @click="go">go personal page</a-button>
   </div>
 </template>
 

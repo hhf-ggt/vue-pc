@@ -1,5 +1,6 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
+// import Vue from 'vue'
+// import Router from 'vue-router'
 import authList from './authList'
 import NotFound from '../pages/NotFound.vue'
 
@@ -9,19 +10,21 @@ import PersonalRouter from './personal'
 import ExampleRouter from './example'
 
 // 2、定义路由
-Vue.use(Router)
-const router = new Router({
-  mode: 'history',
+// Vue.use(Router)
+const router = new createRouter({
+  // mode: 'history',
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
       redirect: '/home'
     },
     ...HomeRouter,
-    {
-      path: '*',
-      component: NotFound
-    }
+    // {
+    //   path: /\*/,
+    //   component: NotFound
+    // }
+    ...PersonalRouter
   ]
 })
 

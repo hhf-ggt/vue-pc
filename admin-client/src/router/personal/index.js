@@ -1,5 +1,5 @@
-const Personal = () => import(/* webpackChunkName: 'pages/personal' */ '../../pages/personal/personal.vue')
-const SmallPage = () => import(/* webpackChunkName: 'pages/personal/smallPage' */ '../../pages/personal/smallPage.vue')
+const Personal = () => import(/* webpackChunkName: 'pages/personal' */ '@/pages/personal/personal.vue')
+const SmallPage = () => import(/* webpackChunkName: 'pages/personal/smallPage' */ '@/pages/personal/smallPage.vue')
 
 const PersonalRouter = [{
   path: '/personal',

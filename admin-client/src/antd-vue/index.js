@@ -1,10 +1,14 @@
-import Vue from 'vue'
 
-import { Button, message, Result } from 'ant-design-vue'
+// 按需引入组件
+import {Button, Result } from 'ant-design-vue'
 
-Vue.use(Button)
-Vue.use(Result)
+const components = [
+	Button,
+	Result
+]
 
-
-Vue.config.productionTip = false
-Vue.prototype.$message = message
+export function setupAntd(app) {
+	components.forEach(component => {
+		app.use(component)
+	})
+}

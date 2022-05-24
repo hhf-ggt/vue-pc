@@ -1,12 +1,10 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import router from './router/index'
 import App from './App.vue'
-import './antd-vue/index'
+import 'ant-design-vue/dist/antd.css'
+import { setupAntd } from "./antd-vue" // 引用ant组件文件 index.js
 
-const app = new Vue({
-  el: '#app',
-  router,
-  render: (h) => h(App)
-})
-
-Vue.use(app)
+const app = createApp(App);
+  app.use(router)
+  app.mount('#app')
+  setupAntd(app)
